@@ -1,0 +1,361 @@
+
+.theme-color{
+	color:#f7600e;
+}
+/*Banner Section Start*/
+.banner{
+	background: url(../images/banner.png) no-repeat;
+	background-size: cover;
+	padding-top: 75px;
+	padding-bottom: 60px;
+}
+.banner-content h1{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.banner-content p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 25px;
+}
+.btn-banner{
+	margin-top: 75px;
+	background-color: #f7600e;
+	color:#fff;
+	border: none;
+	border-radius: 8px;
+	font-size:16px;
+	padding: 8px 35px;
+	text-transform: uppercase;
+}
+.btn-banner:hover{
+	background-color:#a9430c;
+	transition:.6s;
+}
+.fa-chevron-down{
+	margin-top:100px;
+	color: #fff;
+	font-size: 20px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 5px;
+}
+.fa-chevron-down:hover{
+	background-color:#f7600e;
+	cursor: pointer;
+	transition: .5s;
+}
+/* Banner Section End*/
+
+
+
+
+/*Work Section Start*/
+
+.our-work{
+	padding: 60px 0px;
+}
+.work-content h1{
+	color: #333;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.work-content p{
+	font-size: 16px;
+	line-height: 25px;
+	width: 50%;
+	margin: 0 auto;
+}
+.profile{
+	padding: 70px 0px;
+}
+.profile img{
+	display: block;
+	margin: 10px auto;
+	}
+.btn-show{
+	display: block;
+	margin: 0 auto;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 5px 30px;
+}
+.btn-show:hover{
+	background-color:#f7600e;
+	cursor: pointer;
+	transition: .5s;
+}
+/* Work Section End*/
+
+
+
+/* Our Team Section Start*/
+.team h1{
+	color: #333;
+	margin-top: 5px;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.team p{
+	font-size: 16px;
+	line-height: 25px;
+}
+.team-members{
+	padding: 60px 0px;
+}
+.team-members img{
+	display: block;
+	margin: 5px auto;
+}
+.team-members h3{
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+	font-size: 26px;
+}
+.team-members p{
+	color: #3b434c;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+}
+.team-members img:hover{
+	border-bottom: 3px solid #f7600e;
+	transform: scale(1,1.1);
+	-webkit-transform: scale(1,1.1);
+	-moz-transform: scale(1,1.1);
+	-o-transform: scale(1,1.1);
+	transition: 0.5s;
+}
+
+/* Our Team Section End*/
+
+
+
+/* Say Section Start*/
+
+.contact{
+	background: url(../images/contact.png) no-repeat;
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.contact-content h1{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.contact-content p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 25px;
+}
+.contact-form{
+	padding: 40px 0px; 
+}
+.btn-hire{
+	background-color: #f7600e;
+	color:#fff;
+	border: none;
+	border-radius: 8px;
+	font-size:16px;
+	padding: 5px 35px;
+	text-transform: uppercase;
+}
+.btn-hire:hover{
+	background-color:#a9430c;
+	transition:.6s;
+}
+/* Say Section End*/
+
+
+
+/* Footer Section Start*/
+
+.footer{
+	background-color: #3b434c;
+    height: 90px;
+}
+.footer-content p{
+	margin-left: 50px;
+	margin-top:25px;
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+/* Footer Section End*/
+
+
+
+
+
+/*Media Quary CSS*/
+
+@media screen and (max-width: 480px){
+	.logo{
+		padding-top:15px;
+		display: block;
+		margin: 0px auto;
+	}
+	.banner{
+		padding-top:30px;
+	}
+	.banner-content h1{
+		padding-top:12px;
+		font-size: 30px;
+	}
+	.banner-content p{
+		padding-top:12px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.btn-banner{
+		margin-top: 25px;
+	}
+	.fa-chevron-down{
+		margin-top:40px;
+	}
+	.our-work{
+		padding:25px;
+	}
+	.work-content h1{
+		font-size: 30px;
+	}
+	.work-content p{
+		padding-top: 12px;
+		text-align: center;
+		font-size: 13px;
+		line-height: 20px;
+		width: 85%;
+	}
+	.team h1{
+		margin-top: 10px;
+		font-size: 30px;
+	}
+	.team p{
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.team-members h3{
+		font-size: 22px;
+	}
+	.team-members p{
+		font-size: 12px;
+		margin-bottom: 0;
+	}
+	.team-members{
+		padding: 35px 0 40px;
+	}
+	.contact-content h1{
+		margin-top: 0;		
+		font-size: 30px;
+	}
+	.contact-content p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.contact-form {
+		padding: 42px 0;
+	}
+	.contact {
+		padding-top: 56px;
+		padding-bottom: 50px;
+	}
+	.footer-content p {
+		margin-top: 15px;
+	}
+	.mycenter{
+		display: block;
+		margin: 0 auto;
+	}	
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+	.logo{
+		padding-top:15px;
+		display: block;
+		margin: 0 auto;
+	}
+	.banner{
+		padding-top:30px;
+	}
+	.banner-content h1{
+		padding-top:12px;
+		font-size: 30px;
+	}
+	.banner-content p{
+		padding-top:12px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.btn-banner{
+		margin-top: 25px;
+	}
+	.fa-chevron-down{
+		margin-top:40px;
+	}
+	.our-work{
+		padding:25px;
+	}
+	.work-content h1{
+		font-size: 30px;
+	}
+	.work-content p{
+		padding-top: 12px;
+		text-align: center;
+		font-size: 13px;
+		line-height: 20px;
+		width: 57%;
+	}
+	.profile img{
+		display: block;
+		margin: 10px auto;
+	}
+	.team h1{
+		margin-top: 10px;
+		font-size: 30px;
+	}
+	.team p{
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.team-members h3{
+		font-size: 22px;
+	}
+	.team-members p{
+		font-size: 12px;
+		margin-bottom: 0;
+	}
+	.team-members img{
+		display: block;
+		margin: 5px auto;
+	}
+	.contact-content h1{
+		margin-top: 0;		
+		font-size: 30px;
+	}
+	.contact-content p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.contact-form {
+		padding: 42px 0;
+	}
+	.contact {
+		padding-top: 56px;
+		padding-bottom: 50px;
+	}
+	.footer-content p {
+		margin-top: 15px;
+	}
+	.mycenter{
+		display: block;
+		margin: 0 auto;
+	}
+}
